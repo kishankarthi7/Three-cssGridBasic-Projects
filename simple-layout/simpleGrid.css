@@ -7,16 +7,19 @@
 
 .container {
   display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-columns: 20% 80%; /* create two columns in a ratio of 20/80 */
+  grid-template-rows: 10% 80% 10%; /* create two rows in a ratio: 10/80/10 */
   width: 100vw;
   height: 100vh;
+  /* width: 100vw; height: 100vh; makes container to occupy entire view port*/
 }
 
 .main-header,
 .main-footer {
   background-color: darkgray;
   grid-column: 1 / span 2;
+  /* makes main-header, main-footer start from column 1
+   and span to 2 columns this can also be written as grid-colum: 1 / 3  */
 }
 
 .sidebar {
