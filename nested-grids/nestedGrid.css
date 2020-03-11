@@ -38,3 +38,27 @@ button {
   margin: 0 auto;
 }
 
+.main2 {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.main2 button {
+  background-color: #9dbdc6;
+  color: #fff;
+}
+
+.main2 .article-image {
+  background: url('http://lorempixel.com/400/400/food/5') top center no-repeat;
+  border-radius: 4px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  height: 200px;
+}
+
+.card1 {
+  padding: 10px;
+}
