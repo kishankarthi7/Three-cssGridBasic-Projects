@@ -36,6 +36,8 @@ button {
   text-align: center;
   width: 640px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 .main2 {
@@ -56,9 +58,54 @@ button {
 .card {
   background-color: white;
   border-radius: 4px;
-  height: 200px;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px;
+  padding: 40px;
+}
 .card1 {
   padding: 10px;
+  background-color: #9dbdc6;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  grid-column: 1 / span 2;
+}
+
+.card1 h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.card2 {
+  background: url('http://lorempixel.com/400/200/food/1') top center no-repeat;
+}
+
+.card3 {
+  background: url('http://lorempixel.com/400/200/food/2') top center no-repeat;
+}
+
+.card4 {
+  background: url('http://lorempixel.com/400/200/food/3') top center no-repeat;
+}
+
+.card5 {
+  background: url('http://lorempixel.com/400/200/food/4') top center no-repeat;
+}
+
+.card-info {
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-info .price {
+  color: #ff3d2e;
+  font-weight: bold;
+  font-size: 24px;
 }
