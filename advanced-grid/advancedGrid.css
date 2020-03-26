@@ -63,25 +63,91 @@ h6 {
   margin: 0 auto;
 }
 
-.feature-cards {
+#feature-cards {
   padding-top: 20px;
   width: 740px;
   margin: 0 auto;
 }
 
-.feature-cards .card h3 {
+#feature-cards .card h3 {
   font-size: 14px;
   font-weight: normal;
   color: #fff;
   margin: 0;
 }
 
-.feature-cards .card p {
+#feature-cards .card p {
   font-size: 10px;
   color: #fff;
   margin: 0;
 }
 
-.feature-cards .card {
+#feature-cards .card {
   text-align: center;
+}
+
+#feature-cards .card1 {
+  background: url('http://lorempixel.com/300/200/animals/1') center center
+    no-repeat;
+}
+#feature-cards .card2 {
+  background: url('http://lorempixel.com/300/200/animals/2') center center
+    no-repeat;
+}
+#feature-cards .card3 {
+  background: url('http://lorempixel.com/300/200/animals/3') center center
+    no-repeat;
+}
+#feature-cards .card4 {
+  background: url('http://lorempixel.com/300/200/animals/4') center center
+    no-repeat;
+}
+#feature-cards .card5 {
+  background: url('http://lorempixel.com/300/200/animals/5') center center
+    no-repeat;
+}
+#feature-cards .card6 {
+  background: url('http://lorempixel.com/300/200/animals/6') center center
+    no-repeat;
+}
+#feature-cards .card7 {
+  background: url('http://lorempixel.com/300/200/animals/7') center center
+    no-repeat;
+}
+
+#feature-card .card .card-content {
+  background-color: rgba(30, 30, 30, 0.5);
+  height: 100%;
+}
+
+#feature-articles .feature img {
+  width: 100%;
+}
+
+.feature .feature-text {
+  position: relative;
+  top: -80%;
+  padding: 10px 10px 10px 0;
+  width: 90%;
+  background-color: #fff;
+}
+
+.feature-text {
+  margin: 0;
+  font-size: 28px;
+}
+
+.feature-text h3:hover {
+  color: #c44c4c;
+}
+
+.feature-meta {
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+.feature-meta .category {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 8px;
 }
