@@ -151,3 +151,37 @@ h6 {
   color: #fff;
   padding: 2px 8px;
 }
+
+.feature-meta .author {
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.feature-text .data {
+  color: #999;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #999;
+}
+
+.feature button {
+  background-color: #c44c4c;
+  border: none;
+  color: #fff;
+  padding: 4px 8px;
+}
+
+#sidebar .card {
+  clear: both;
+}
+
+#sidebar .card h4 {
+  float: right;
+  background-color: #fff;
+  position: relative;
+  padding: 8px;
+  top: -50%;
+  margin-bottom: -30px;
+}
